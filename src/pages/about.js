@@ -1,12 +1,17 @@
 import * as React from 'react'
-import { Link } from 'gatsby'
-import Layout from '../components/Layout'
+import Layout from '../components/layout'
+import ButtonUI from '../components/button'
+
+
 
 const AboutPage = () => {
+
   return (
      <Layout pageTitle="About me">
-      <p>I'm making this by following the Gatsby Tutorial.</p>
+      <p>I'm making this by following the Gatsby Tutorial.</p>   
+   <ButtonUI buttonText="sav"/>
     </Layout>
+  
   )
 }
 
